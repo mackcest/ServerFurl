@@ -7,7 +7,8 @@ const app = express();
 app.use(bodyParser.json());
 
 // const mongoUrl = 'mongodb://localhost:27017';
-const mongoUrl = 'mongodb+srv://doquangminhhaik:CY1bIwG2h1ShrdW5@cluster0.akcujdl.mongodb.net/?retryWrites=true&w=majority';
+// const mongoUrl = 'mongodb+srv://doquangminhhaik:CY1bIwG2h1ShrdW5@cluster0.akcujdl.mongodb.net/?retryWrites=true&w=majority';
+const mongoUrl = 'mongodb://mongo:********@containers-us-west-154.railway.app:6087';
 const dbName = 'url_shortener';
 const collectionName = 'urls';
 const cors = require('cors');
